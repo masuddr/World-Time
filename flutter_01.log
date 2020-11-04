@@ -1,0 +1,49 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter --no-color run --machine --track-widget-creation --device-id=a3f0277b lib\main.dart
+
+## exception
+
+SocketException: SocketException: OS Error: Een aanvraag om gegevens te verzenden of te ontvangen is niet toegestaan omdat de socket niet is verbonden en omdat (tijdens het verzenden op een datagramsocket via een sendto-aanroep) geen adres is opgegeven.
+, errno = 10057, address = 127.0.0.1, port = 63385
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 1.22.3, on Microsoft Windows [Version 10.0.18363.1139], locale nl-NL)
+    • Flutter version 1.22.3 at C:\flutter
+    • Framework revision 8874f21e79 (3 days ago), 2020-10-29 14:14:35 -0700
+    • Engine revision a1440ca392
+    • Dart version 2.10.3
+
+[!] Android toolchain - develop for Android devices (Android SDK version 29.0.3)
+    • Android SDK at D:/AndroidSDK
+    • Platform android-29, build-tools 29.0.3
+    • ANDROID_HOME = D:/AndroidSDK
+    • Java binary at: D:\AS\jre\bin\java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_212-release-1586-b04)
+    ✗ Android license status unknown.
+      Run `flutter doctor --android-licenses` to accept the SDK licenses.
+      See https://flutter.dev/docs/get-started/install/windows#android-setup for more details.
+
+[✓] Android Studio (version 3.6)
+    • Android Studio at D:\AS
+    • Flutter plugin version 45.0.1
+    • Dart plugin version 192.7761
+    • Java version OpenJDK Runtime Environment (build 1.8.0_212-release-1586-b04)
+
+[✓] VS Code (version 1.50.0)
+    • VS Code at C:\Users\MasudRasa\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 3.15.0
+
+[✓] Connected device (1 available)
+    • HD1913 (mobile) • a3f0277b • android-arm64 • Android 10 (API 29)
+
+! Doctor found issues in 1 category.
+```
